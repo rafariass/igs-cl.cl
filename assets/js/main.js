@@ -1,3 +1,4 @@
+// ! Scroll Tips
 $(document).ready(() => {
   $(".flotante").click(() => {
     $("body, html").animate({
@@ -6,8 +7,11 @@ $(document).ready(() => {
     return false;
   });
   $(window).scroll(() => {
-    $(this).scrollTop() > 250
-      ? $(".flotante").slideDown(250)
-      :$(".flotante").slideUp(250);
+    $(this).scrollTop() > 150
+      ? $(".flotante").slideDown(150)
+      : $(".flotante").slideUp(150);
   });
 });
+
+// ! Anio actual, se usa en el footer
+$("#anio").text(new Date().getFullYear());
