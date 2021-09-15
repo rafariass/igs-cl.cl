@@ -1,0 +1,50 @@
+.flotante {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 9999999999;
+}
+
+.carousel-img-caption {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-img-1 {
+  height: 32rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/home_01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-img-2 {
+  height: 32rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/home_02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-img-3 {
+  height: 32rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/home_03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-item-active {
+  background-color: #295094 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.25rem 2rem !important;
+  border-radius: 0.8rem !important;
+  font-weight: 300 !important;
+}
+
+.nav-item-sperk {
+  /* background-color: #ffffff !important; */
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.25rem 2rem !important;
+  border-radius: 0.8rem !important;
+  font-weight: 300 !important;
+}

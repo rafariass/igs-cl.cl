@@ -17,7 +17,13 @@
     <title>IGS-CL</title>
 
     <!-- favicon -->
-
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -25,7 +31,96 @@
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- img up flotante -->
+    <a class="flotante" id="js_up" href="#ups"><img src="assets/img/up-arrow.png" width="64" height="64"></a>
+
+    <!-- Cabecera -->
+    <div class="container py-2 d-none d-lg-block">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-3 text-center">
+          <img src="assets/img/logo/logo_corto.jpg" class="img-fluid" alt="logo corto igs-cl">
+        </div>
+        <div class="col-6">
+          <p class="h3 text-center py-2">INGENIERIA GENERACION Y SERVICIO</p>
+        </div>
+        <div class="col-3">
+          <div class="row align-items-center justify-content-end" style="font-size: 15px;">
+            <p class="p-0 m-0">
+              <img src="assets/img/logo/whatsapp.png" class="pb-1 pr-2" width="30"> <a href="mailto:servicio@igs-cl.cl">(+569) 7333 6566</a><br>
+              <img src="assets/img/logo/email.png" class="py-1 pr-2" width="30"> <a href="mailto:servicio@igs-cl.cl">servicio@igs-cl.cl</a><br>
+              <img src="assets/img/logo/instagram.png" class="pt-1 pr-2" width="30"> <a href="https://www.instagram.com/" target="_blank">instagram</a><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container-fluid" style="background-color: #295094;">
+      <div class="container bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="assets/img/logo/logo_corto.jpg" width="64" height="64" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item nav-item-active">
+                <a class="nav-link text-white outline-none" href="#"><i class="fas fa-house-user"></i> Inicio</a>
+              </li>
+              <li class="nav-item nav-item-sperk">
+                <a class="nav-link text-white outline-none" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item nav-item-sperk">
+                <a class="nav-link text-white outline-none" href="#">Clientes</a>
+              </li>
+              <li class="nav-item nav-item-sperk">
+                <a class="nav-link text-white outline-none" href="#">Servicios</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Carousel - Hero Section -->
+    <div id="carouselHeroSection" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselHeroSection" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselHeroSection" data-slide-to="1"></li>
+        <li data-target="#carouselHeroSection" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-img-1">
+          <div class="carousel-caption carousel-img-caption">
+            <h1 style="font-weight: 300;">Instalación</h1>
+            <p class="lead2 mx-1">Instalamos equipos nuevos y mejoramos instalaciones.<br>(Obras menores)</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-img-2">
+          <div class="carousel-caption carousel-img-caption">
+            <h1 style="font-weight: 300;">Mantención</h1>
+            <p class="lead2 mx-1">Realizamos mantenciones a grupos electrógenos de distintas marcas.</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-img-3">
+          <div class="carousel-caption carousel-img-caption">
+            <h1 style="font-weight: 300;">Reparación</h1>
+            <p class="lead2 mx-1">Diagnosticamos y reparamos grupos electrógenos de distintas marcas.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselHeroSection" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselHeroSection" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
 
 
@@ -34,8 +129,10 @@
 
 
 
-    <script src="assets/js/jquery-3.5.1.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="assets/js/popper.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/46d8f1377c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
