@@ -90,9 +90,41 @@
   font-size: 1rem;
   font-weight: 300;
 }
+
 @media (min-width: 768px) {
   .lead-2 {
     font-size: 1.5rem;
     font-weight: 300;
   }
+}
+
+.model-igs {
+  background-color: #0d35c8;
+  color: #fff;
+}
+
+.hovereffect {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
 }
