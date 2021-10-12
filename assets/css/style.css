@@ -128,3 +128,17 @@
   filter: brightness(0.7);
   -webkit-filter: brightness(0.7);
 }
+
+.text-igs {
+  color: #0d35c8;
+}
+
+.img-servicios-uno {
+  width: 22rem;
+}
+
+@media (min-width: 768px) {
+  .img-servicios-uno {
+    width: 17rem;
+  }
+}
